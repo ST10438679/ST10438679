@@ -7,8 +7,8 @@
 
 <p align="center">
   <!-- TODO: replace YOUR-LINKEDIN and add your email/portfolio if you want them public -->
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:dswile7@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-D14836?logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/liam-swile-a4a951331"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:dswile9@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-D14836?logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 ---
