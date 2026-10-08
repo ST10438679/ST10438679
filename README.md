@@ -65,7 +65,7 @@ A logistics contract and service-request management platform made of a REST API,
 - ✅ **18 xUnit integration tests** run against the real HTTP pipeline with an in-memory database, executed on every push by a **GitHub Actions** workflow
 - 📄 Swagger/OpenAPI documentation
 
-> 🔗 Repository: _coming soon_ <!-- TODO: add link -->
+> 🔗 Repository: [LMSA---Logistics-Management-System-Application](https://github.com/ST10438679/LMSA---Logistics-Management-System-Application)
 
 ---
 
@@ -80,7 +80,7 @@ An e-commerce style web app (customers, products, orders, cart and contracts) th
 - 🗄️ Relational data in **Azure SQL** through EF Core; deployed to **Azure App Service**
 - 🎥 Walkthrough videos of the app and the Azure services were recorded for assessment
 
-> 🔗 Repository: _coming soon_ <!-- TODO: add link -->
+> 🔗 Repository: [CRA---Cloud-Retail-Application](https://github.com/ST10438679/CRA---Cloud-Retail-Application)
 
 ---
 
@@ -96,7 +96,7 @@ A claims workflow for lecturers' monthly work: lecturers submit claims with supp
 - ✅ Unit tests with xUnit and Moq covering the controller logic and claim model
 - 🔁 Iterated across three submission parts, incorporating lecturer feedback (documented in the project README)
 
-> 🔗 Repository: _coming soon_ <!-- TODO: add link -->
+> 🔗 Repository: [CMCS---Contract-Monthly-Claim-System](https://github.com/ST10438679/CMCS---Contract-Monthly-Claim-System)
 
 ---
 
