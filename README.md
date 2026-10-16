@@ -15,16 +15,19 @@
 
 ## 👋 About me
 
-I'm a software development student who likes owning a feature from start to finish: modelling the data, building the API and the UI, writing the tests, then containerising and deploying it. My recent work spans three different .NET architectures: a **cloud-native Azure app**, a **secure role-based MVC system**, and a **containerised API + Blazor platform with CI**.
+I'm a **Bachelor of Computer & Information Sciences** student at **IIE Varsity College** in Cape Town, and a **tutor** for fellow students. I like owning a feature from start to finish: modelling the data, building the API and the UI, writing the tests, then containerising and deploying it. My recent work spans three different .NET architectures: a **cloud-native Azure app**, a **secure role-based MVC system**, and a **containerised API + Blazor platform with CI**.
 
 ```yaml
 focus:      backend & cloud development in .NET
+currently:  Frontend Engineer & Integration Developer on my WIL team project · tutoring
 backend:    ASP.NET Core Web API · MVC · EF Core · JWT auth · Swagger
-frontend:   Blazor Server · Razor views · Bootstrap 5
+frontend:   HTML5 · CSS3 · JavaScript (ES6+) · Blazor Server · Razor views · Bootstrap 5
 cloud:      Azure App Service · Azure SQL · Functions · Table / Blob / Queue / File Share Storage
 devops:     Docker Compose · GitHub Actions CI
 testing:    xUnit · Moq · WebApplicationFactory integration tests
 patterns:   Factory · Observer · Decorator · Repository
+design:     UML · ERD · MS Project (WBS & scheduling)
+languages:  English (fluent) · Afrikaans (basic)
 looking:    junior / graduate .NET developer roles
 ```
 
@@ -47,6 +50,26 @@ looking:    junior / graduate .NET developer roles
   <img src="https://img.shields.io/badge/Git-0E0C07?style=for-the-badge&logo=git&logoColor=F5C518" alt="Git" />
   <img src="https://img.shields.io/badge/Visual%20Studio-0E0C07?style=for-the-badge&logo=visualstudio&logoColor=F5C518" alt="Visual Studio" />
 </div>
+
+---
+
+## 💼 Experience
+
+**Tutor**, IIE Varsity College
+<br /><sub>Supporting fellow students with programming and application development.</sub>
+
+**Frontend Engineer & Integration Developer**, WIL team project (IIE Varsity College)
+- Build responsive HTML / CSS / JavaScript screens from wireframes and storyboards, with client-side validation
+- Connect the frontend to back-end APIs and database services, keeping data flowing securely between layers
+- Test and debug integration points across modules, document the integration architecture and take part in code reviews
+
+**General Assistant**, Almost Home Guesthouse · <sub>Jan 2018 – Jul 2019</sub>
+<br /><sub>First point of contact for guests, bookings admin, and trusted with property access and guest safety on night shifts.</sub>
+
+## 🎓 Education
+
+**Bachelor of Computer & Information Sciences**, IIE Varsity College · <sub>in progress</sub>
+<br />**National Senior Certificate** (Bachelor's admission), Bellville Hoër Tegniese Skool · <sub>2018</sub>
 
 ---
 
