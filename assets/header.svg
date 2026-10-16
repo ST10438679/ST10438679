@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Liam Swile, .NET and cloud developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.15" cy="0.2" r="0.5">
+      <stop offset="0" stop-color="#512bd4" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#512bd4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.9" cy="0.9" r="0.5">
+      <stop offset="0" stop-color="#0078d4" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0078d4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+    <clipPath id="frame"><rect width="900" height="260" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; }
+    .sans { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .line { opacity: 0; animation: show 0.01s forwards; }
+    .l1 { animation-delay: 0.4s; } .l2 { animation-delay: 1.2s; } .l3 { animation-delay: 1.6s; }
+    .l4 { animation-delay: 2.0s; } .l5 { animation-delay: 2.4s; } .l6 { animation-delay: 3.2s; }
+    .l7 { animation-delay: 3.9s; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    .fade { opacity: 0; animation: fadein 0.8s ease-out forwards; }
+    .f2 { animation-delay: 0.25s; } .f3 { animation-delay: 0.5s; }
+    @keyframes show { to { opacity: 1; } }
+    @keyframes fadein { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="260" fill="url(#bg)"/>
+    <rect width="900" height="260" fill="url(#grid)"/>
+    <rect width="900" height="260" fill="url(#glowA)"/>
+    <rect width="900" height="260" fill="url(#glowB)"/>
+    <rect y="256" width="900" height="4" fill="url(#accent)"/>
+  </g>
+
+  <!-- Left: name and title -->
+  <g class="sans">
+    <text x="44" y="98" class="fade" font-size="44" font-weight="700" fill="#f0f6fc">Liam Swile</text>
+    <rect x="46" y="114" width="64" height="4" rx="2" fill="url(#accent)" class="fade f2"/>
+    <text x="44" y="150" class="fade f2" font-size="19" fill="#c9d1d9">.NET &amp; Cloud Developer</text>
+    <text x="44" y="180" class="fade f3 mono" font-size="13.5" fill="#8b949e">C# · ASP.NET Core · Azure · Docker</text>
+    <text x="44" y="216" class="fade f3 mono" font-size="12.5" fill="#7ee787">● open to junior / graduate roles</text>
+  </g>
+
+  <!-- Right: terminal -->
+  <g transform="translate(452 34)">
+    <rect width="412" height="192" rx="10" fill="#010409" fill-opacity="0.85" stroke="#30363d"/>
+    <rect width="412" height="28" rx="10" fill="#161b22"/>
+    <rect y="18" width="412" height="10" fill="#161b22"/>
+    <circle cx="18" cy="14" r="5" fill="#ff5f57"/>
+    <circle cx="36" cy="14" r="5" fill="#febc2e"/>
+    <circle cx="54" cy="14" r="5" fill="#28c840"/>
+    <text x="206" y="18.5" text-anchor="middle" class="mono" font-size="11" fill="#8b949e">liam@dev: ~/portfolio</text>
+
+    <g class="mono" font-size="13">
+      <text x="16" y="54" class="line l1"><tspan fill="#7ee787">$</tspan><tspan fill="#c9d1d9"> dotnet run --project liam</tspan></text>
+      <text x="16" y="76" class="line l2" fill="#a5b4fc">  ✔ REST APIs with JWT auth</text>
+      <text x="16" y="96" class="line l3" fill="#a5b4fc">  ✔ Azure Functions + Storage</text>
+      <text x="16" y="116" class="line l4" fill="#a5b4fc">  ✔ Docker Compose + GitHub Actions</text>
+      <text x="16" y="136" class="line l5" fill="#a5b4fc">  ✔ Factory · Observer · Decorator</text>
+      <text x="16" y="160" class="line l6"><tspan fill="#7ee787">$</tspan><tspan fill="#c9d1d9"> dotnet test</tspan></text>
+      <text x="16" y="180" class="line l7"><tspan fill="#3fb950">  Passed!</tspan><tspan fill="#8b949e"> Failed: 0</tspan><tspan fill="#c9d1d9" class="cursor"> ▌</tspan></text>
+    </g>
+  </g>
+</svg>

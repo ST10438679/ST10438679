@@ -1,119 +1,141 @@
-<h1 align="center">Hi, I'm Liam Swile 👋</h1>
+<div align="center">
 
-<p align="center">
-  <b>.NET developer in training</b> building cloud-hosted, tested, containerised web applications.<br/>
-  C# · ASP.NET Core · Azure · SQL Server · Docker
+<img src="./assets/header.svg" width="100%" alt="Liam Swile: .NET and cloud developer working in C#, ASP.NET Core, Azure and Docker" />
+
+<p>
+  <a href="https://www.linkedin.com/in/liam-swile-a4a951331"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:dswile9@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/ST10438679?tab=repositories"><img src="https://img.shields.io/badge/Projects-512BD4?style=for-the-badge&logo=github&logoColor=white" alt="Projects" /></a>
+  <img src="https://komarev.com/ghpvc/?username=ST10438679&style=for-the-badge&color=0078D4&label=PROFILE+VIEWS" alt="Profile view count" />
 </p>
 
-<p align="center">
-  <!-- TODO: replace YOUR-LINKEDIN and add your email/portfolio if you want them public -->
-  <a href="https://www.linkedin.com/in/liam-swile-a4a951331"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:dswile9@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20me-D14836?logo=gmail&logoColor=white" alt="Email"/></a>
-</p>
+</div>
 
 ---
 
-## 🔭 About me
+## 👋 About me
 
-I'm a software development student who enjoys the full path from idea to running product: designing the data model, building the API and UI, writing tests, and getting it deployed. My recent work covers three different .NET architectures: a **cloud-native Azure app**, a **secure role-based MVC system**, and a **containerised API + Blazor platform with CI**.
+I'm a software development student who likes owning a feature from start to finish: modelling the data, building the API and the UI, writing the tests, then containerising and deploying it. My recent work spans three different .NET architectures: a **cloud-native Azure app**, a **secure role-based MVC system**, and a **containerised API + Blazor platform with CI**.
 
-- 🌱 Currently deepening my knowledge of cloud architecture, design patterns and automated testing
-- 💼 Looking for **junior / graduate .NET developer** opportunities
-- 💬 Ask me about: ASP.NET Core, Entity Framework Core, Azure Storage and Functions, JWT auth, Docker
+```yaml
+focus:      backend & cloud development in .NET
+backend:    ASP.NET Core Web API · MVC · EF Core · JWT auth · Swagger
+frontend:   Blazor Server · Razor views · Bootstrap 5
+cloud:      Azure App Service · Azure SQL · Functions · Table / Blob / Queue / File Share Storage
+devops:     Docker Compose · GitHub Actions CI
+testing:    xUnit · Moq · WebApplicationFactory integration tests
+patterns:   Factory · Observer · Decorator · Repository
+looking:    junior / graduate .NET developer roles
+```
 
-## 🛠️ Tech stack
-
-**Languages & frameworks**
-
-![C#](https://img.shields.io/badge/C%23-239120?logo=csharp&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET%208%20%2F%2010-512BD4?logo=dotnet&logoColor=white)
-![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?logo=dotnet&logoColor=white)
-![Blazor](https://img.shields.io/badge/Blazor-512BD4?logo=blazor&logoColor=white)
-![Razor MVC](https://img.shields.io/badge/MVC%20%2F%20Razor-512BD4?logo=dotnet&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
-
-**Cloud, data & DevOps**
-
-![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white)
-![Azure Functions](https://img.shields.io/badge/Azure%20Functions-0062AD?logo=azurefunctions&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white)
-![EF Core](https://img.shields.io/badge/Entity%20Framework%20Core-512BD4?logo=dotnet&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger%20%2F%20OpenAPI-85EA2D?logo=swagger&logoColor=black)
-
-**Testing & tools**
-
-![xUnit](https://img.shields.io/badge/xUnit-512BD4?logo=dotnet&logoColor=white)
-![Moq](https://img.shields.io/badge/Moq-5C2D91)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?logo=visualstudio&logoColor=white)
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,azure,docker,githubactions,git,github,visualstudio,vscode,html,css,bootstrap&theme=dark" alt="Tech stack: C#, .NET, Azure, Docker, GitHub Actions, Git, GitHub, Visual Studio, VS Code, HTML, CSS, Bootstrap" />
+  <br />
+  <img src="https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white" alt="Blazor" />
+  <img src="https://img.shields.io/badge/EF%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Entity Framework Core" />
+  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
+  <img src="https://img.shields.io/badge/Azure%20Functions-0062AD?style=for-the-badge&logo=azurefunctions&logoColor=white" alt="Azure Functions" />
+  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger" />
+  <img src="https://img.shields.io/badge/xUnit-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white" alt="xUnit" />
+</div>
 
 ---
 
 ## 🚀 Featured projects
 
-### 1. Logistics Management Platform — API + Blazor + Docker + CI
-`.NET 10` · `ASP.NET Core Web API` · `Blazor Server` · `EF Core` · `SQL Server` · `Docker Compose` · `GitHub Actions`
+<table>
+<tr>
+<td width="50%" valign="top">
 
-A logistics contract and service-request management platform made of a REST API, a Blazor Server frontend and an integration-test project, all brought up with a single `docker compose up`.
+<a href="https://youtu.be/MJ8W7Ebr18c"><img src="https://img.youtube.com/vi/MJ8W7Ebr18c/hqdefault.jpg" width="100%" alt="Watch the Logistics Management Platform demo on YouTube" /></a>
 
-- 🔐 **JWT authentication**: every endpoint except login requires a signed bearer token; the Blazor app injects it into outgoing calls through a delegating handler
-- 🧩 **Three Gang-of-Four patterns** in real use: **Factory Method** (freight vs driver contracts), **Observer** (compliance logging and notifications on contract status changes) and **Decorator** (SLA validation and USD→ZAR conversion layered onto service requests)
-- 🗄️ **Repository pattern** over five repositories, plus a `ContractWorkflowService` that enforces valid status transitions (`Draft → Active → Completed`)
-- 💱 Live currency conversion through ExchangeRate-API, and PDF contract upload
-- ✅ **18 xUnit integration tests** run against the real HTTP pipeline with an in-memory database, executed on every push by a **GitHub Actions** workflow
-- 📄 Swagger/OpenAPI documentation
+### 🚚 [Logistics Management Platform](https://github.com/ST10438679/LMSA---Logistics-Management-System-Application)
+Decoupled **ASP.NET Core Web API + Blazor Server** platform on **.NET 10** for logistics contracts and service requests, started with one `docker compose up`.
 
-> 🔗 Repository: [LMSA---Logistics-Management-System-Application](https://github.com/ST10438679/LMSA---Logistics-Management-System-Application)
+- JWT auth across every endpoint
+- **Factory**, **Observer** and **Decorator** patterns, plus the Repository pattern
+- Live USD → ZAR conversion and PDF contract uploads
+- **18 integration tests** run by **GitHub Actions** on every push
 
----
+`.NET 10` `Web API` `Blazor` `EF Core` `Docker` `GitHub Actions`
 
-### 2. Cloud Retail Application — Azure Storage + Functions
-`.NET 8` · `ASP.NET Core MVC` · `Azure Table / Blob / Queue / File Share` · `Azure Functions` · `Azure SQL` · `Azure App Service`
+</td>
+<td width="50%" valign="top">
 
-An e-commerce style web app (customers, products, orders, cart and contracts) that uses the full range of **Azure Storage** services, with a separate **Azure Functions** app handling uploads and background work.
+<a href="https://youtu.be/wpI3cz68bWg"><img src="https://img.youtube.com/vi/wpI3cz68bWg/hqdefault.jpg" width="100%" alt="Watch the Cloud Retail Application demo on YouTube" /></a>
 
-- ☁️ Four dedicated storage services (Table, Blob, Queue, File Share) registered with dependency injection
-- ⚡ **Azure Functions** (isolated worker, Application Insights enabled) for customer inserts to Table Storage, image and video uploads to Blob Storage, file-share uploads and queue messaging
-- 👥 Role-based experience for **admin** and **customer** users, with session-based login
-- 🗄️ Relational data in **Azure SQL** through EF Core; deployed to **Azure App Service**
-- 🎥 Walkthrough videos of the app and the Azure services were recorded for assessment
+### ☁️ [Cloud Retail Application](https://github.com/ST10438679/CRA---Cloud-Retail-Application)
+E-commerce style **ASP.NET Core MVC** app (customers, products, orders, cart, contracts) built on the **Azure** platform.
 
-> 🔗 Repository: [CRA---Cloud-Retail-Application](https://github.com/ST10438679/CRA---Cloud-Retail-Application)
+- All four **Azure Storage** services: Table, Blob, Queue and File Share
+- **Azure Functions** (isolated worker) for uploads and queue messaging
+- **Azure SQL** via EF Core, hosted on **Azure App Service**
+- Admin and customer roles
 
----
+`.NET 8` `Azure Functions` `Azure Storage` `Azure SQL`
 
-### 3. Contract Monthly Claim System (CMCS) — Secure role-based MVC
-`.NET 8` · `ASP.NET Core MVC` · `EF Core` · `SQL Server` · `QuestPDF` · `xUnit` · `Moq`
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-A claims workflow for lecturers' monthly work: lecturers submit claims with supporting documents, which then move through **Programme Coordinator** and **Academic Manager** approval, with **HR** handling invoicing and reporting.
+<a href="https://youtu.be/2eQNJYsmzCc"><img src="https://img.youtube.com/vi/2eQNJYsmzCc/hqdefault.jpg" width="100%" alt="Watch the Contract Monthly Claim System demo on YouTube" /></a>
 
-- 👤 Four-role access model (Lecturer, Programme Coordinator, Academic Manager, HR) with controllers and views per role
-- 🔒 **Supporting documents are encrypted at rest** by an `EncryptionService` and stored outside the web root to block unauthorised access
-- 🧾 **Automated PDF invoice generation** with QuestPDF
-- 🎨 Colour-coded claim statuses for quick reading, and a two-stage approval flow
-- ✅ Unit tests with xUnit and Moq covering the controller logic and claim model
-- 🔁 Iterated across three submission parts, incorporating lecturer feedback (documented in the project README)
+### 📑 [Contract Monthly Claim System](https://github.com/ST10438679/CMCS---Contract-Monthly-Claim-System)
+Lecturers' claims move through a **two-stage approval** (Coordinator → Manager), with HR handling invoicing and reports.
 
-> 🔗 Repository: [CMCS---Contract-Monthly-Claim-System](https://github.com/ST10438679/CMCS---Contract-Monthly-Claim-System)
+- Four roles, each with its own controllers and views
+- **Encrypted** supporting documents, stored outside the web root
+- PDF invoices generated with **QuestPDF**
+- Unit tests with **xUnit + Moq**
 
----
+`.NET 8` `MVC` `EF Core` `SQL Server` `QuestPDF`
 
-## 🧠 What these projects show
+</td>
+<td width="50%" valign="top">
 
-| Skill | Where I've applied it |
+### 🧠 What these projects show
+
+| Skill | Where |
 |---|---|
-| REST API design and JWT security | Logistics Management Platform |
-| Design patterns (Factory, Observer, Decorator, Repository) | Logistics Management Platform |
-| Cloud architecture (Azure Storage, Functions, App Service) | Cloud Retail Application |
-| Automated testing and CI | Logistics platform (integration + GitHub Actions), CMCS (unit + mocks) |
-| Containerisation | Docker Compose with SQL Server 2022, API and Blazor frontend |
-| Application security (encryption, role-based access) | CMCS, Logistics platform |
-| Working from feedback and documenting changes | CMCS, across three submission parts |
+| REST APIs + JWT security | Logistics |
+| Design patterns | Logistics |
+| Cloud architecture | Cloud Retail |
+| Automated tests + CI | Logistics, CMCS |
+| Containers | Logistics |
+| Encryption + role-based access | CMCS, Logistics |
+| Iterating on feedback | CMCS |
+
+<sub>▶ Click any thumbnail to watch the demo video.</sub>
+
+</td>
+</tr>
+</table>
 
 ---
 
-<p align="center">
-  <i>Thanks for stopping by. If you're hiring for a junior .NET role, I'd love to chat.</i>
-</p>
+## 📊 GitHub activity
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=ST10438679&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=38BDF8&count_private=true" alt="GitHub stats for ST10438679" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ST10438679&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6" alt="Top languages across public repositories" />
+
+<img src="https://streak-stats.demolab.com/?user=ST10438679&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub contribution streak" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ST10438679/ST10438679/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/ST10438679/ST10438679/output/snake.svg" alt="A snake eating this year's contribution squares" />
+</picture>
+
+</div>
+
+---
+
+<div align="center">
+
+<sub><i>Thanks for stopping by. If you're hiring for a junior .NET role, I'd love to chat.</i></sub>
+
+<a href="mailto:dswile9@gmail.com"><img src="https://img.shields.io/badge/Let's_talk-dswile9%40gmail.com-512BD4?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email me at dswile9@gmail.com" /></a>
+
+</div>
