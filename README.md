@@ -3,10 +3,10 @@
 <img src="./assets/header.svg" width="100%" alt="Liam Swile: .NET and cloud developer working in C#, ASP.NET Core, Azure and Docker" />
 
 <p>
-  <a href="https://www.linkedin.com/in/liam-swile-a4a951331"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:dswile9@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/ST10438679?tab=repositories"><img src="https://img.shields.io/badge/Projects-512BD4?style=for-the-badge&logo=github&logoColor=white" alt="Projects" /></a>
-  <img src="https://komarev.com/ghpvc/?username=ST10438679&style=for-the-badge&color=0078D4&label=PROFILE+VIEWS" alt="Profile view count" />
+  <a href="https://www.linkedin.com/in/liam-swile-a4a951331"><img src="https://img.shields.io/badge/LinkedIn-0E0C07?style=for-the-badge&logo=linkedin&logoColor=F5C518" alt="LinkedIn" /></a>
+  <a href="mailto:dswile9@gmail.com"><img src="https://img.shields.io/badge/Email-0E0C07?style=for-the-badge&logo=gmail&logoColor=F5C518" alt="Email" /></a>
+  <a href="https://github.com/ST10438679?tab=repositories"><img src="https://img.shields.io/badge/Projects-0E0C07?style=for-the-badge&logo=github&logoColor=F5C518" alt="Projects" /></a>
+  <img src="https://komarev.com/ghpvc/?username=ST10438679&style=for-the-badge&color=F5C518&label=PROFILE+VIEWS" alt="Profile view count" />
 </p>
 
 </div>
@@ -29,14 +29,23 @@ looking:    junior / graduate .NET developer roles
 ```
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,azure,docker,githubactions,git,github,visualstudio,vscode,html,css,bootstrap&theme=dark" alt="Tech stack: C#, .NET, Azure, Docker, GitHub Actions, Git, GitHub, Visual Studio, VS Code, HTML, CSS, Bootstrap" />
+  <img src="https://img.shields.io/badge/C%23-0E0C07?style=for-the-badge&logo=dotnet&logoColor=F5C518" alt="C#" />
+  <img src="https://img.shields.io/badge/.NET-0E0C07?style=for-the-badge&logo=dotnet&logoColor=F5C518" alt=".NET" />
+  <img src="https://img.shields.io/badge/ASP.NET%20Core-0E0C07?style=for-the-badge&logo=dotnet&logoColor=F5C518" alt="ASP.NET Core" />
+  <img src="https://img.shields.io/badge/Blazor-0E0C07?style=for-the-badge&logo=blazor&logoColor=F5C518" alt="Blazor" />
+  <img src="https://img.shields.io/badge/EF%20Core-0E0C07?style=for-the-badge&logo=dotnet&logoColor=F5C518" alt="Entity Framework Core" />
   <br />
-  <img src="https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge&logo=blazor&logoColor=white" alt="Blazor" />
-  <img src="https://img.shields.io/badge/EF%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Entity Framework Core" />
-  <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
-  <img src="https://img.shields.io/badge/Azure%20Functions-0062AD?style=for-the-badge&logo=azurefunctions&logoColor=white" alt="Azure Functions" />
-  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="Swagger" />
-  <img src="https://img.shields.io/badge/xUnit-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white" alt="xUnit" />
+  <img src="https://img.shields.io/badge/Azure-0E0C07?style=for-the-badge&logo=microsoftazure&logoColor=F5C518" alt="Azure" />
+  <img src="https://img.shields.io/badge/Azure%20Functions-0E0C07?style=for-the-badge&logo=azurefunctions&logoColor=F5C518" alt="Azure Functions" />
+  <img src="https://img.shields.io/badge/SQL%20Server-0E0C07?style=for-the-badge&logo=microsoftsqlserver&logoColor=F5C518" alt="SQL Server" />
+  <img src="https://img.shields.io/badge/Docker-0E0C07?style=for-the-badge&logo=docker&logoColor=F5C518" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-0E0C07?style=for-the-badge&logo=githubactions&logoColor=F5C518" alt="GitHub Actions" />
+  <br />
+  <img src="https://img.shields.io/badge/xUnit-0E0C07?style=for-the-badge&logo=dotnet&logoColor=F5C518" alt="xUnit" />
+  <img src="https://img.shields.io/badge/Swagger-0E0C07?style=for-the-badge&logo=swagger&logoColor=F5C518" alt="Swagger" />
+  <img src="https://img.shields.io/badge/Bootstrap-0E0C07?style=for-the-badge&logo=bootstrap&logoColor=F5C518" alt="Bootstrap" />
+  <img src="https://img.shields.io/badge/Git-0E0C07?style=for-the-badge&logo=git&logoColor=F5C518" alt="Git" />
+  <img src="https://img.shields.io/badge/Visual%20Studio-0E0C07?style=for-the-badge&logo=visualstudio&logoColor=F5C518" alt="Visual Studio" />
 </div>
 
 ---
@@ -118,10 +127,10 @@ Lecturers' claims move through a **two-stage approval** (Coordinator → Manager
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=ST10438679&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=38BDF8&count_private=true" alt="GitHub stats for ST10438679" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ST10438679&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6" alt="Top languages across public repositories" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=ST10438679&show_icons=true&hide_border=true&bg_color=0E0C07&title_color=F5C518&icon_color=F5C518&text_color=F3E9C6&count_private=true" alt="GitHub stats for ST10438679" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ST10438679&layout=compact&hide_border=true&bg_color=0E0C07&title_color=F5C518&text_color=F3E9C6" alt="Top languages across public repositories" />
 
-<img src="https://streak-stats.demolab.com/?user=ST10438679&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub contribution streak" />
+<img src="https://streak-stats.demolab.com/?user=ST10438679&hide_border=true&background=0E0C07&ring=F5C518&fire=F5C518&currStreakLabel=F5C518&sideNums=F3E9C6&currStreakNum=F3E9C6&sideLabels=A8975F&dates=A8975F&stroke=3A3220" alt="GitHub contribution streak" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ST10438679/ST10438679/output/snake-dark.svg" />
@@ -136,6 +145,6 @@ Lecturers' claims move through a **two-stage approval** (Coordinator → Manager
 
 <sub><i>Thanks for stopping by. If you're hiring for a junior .NET role, I'd love to chat.</i></sub>
 
-<a href="mailto:dswile9@gmail.com"><img src="https://img.shields.io/badge/Let's_talk-dswile9%40gmail.com-512BD4?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117" alt="Email me at dswile9@gmail.com" /></a>
+<a href="mailto:dswile9@gmail.com"><img src="https://img.shields.io/badge/Let's_talk-dswile9%40gmail.com-F5C518?style=for-the-badge&logo=gmail&logoColor=F5C518&labelColor=0E0C07" alt="Email me at dswile9@gmail.com" /></a>
 
 </div>

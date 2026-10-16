@@ -1,25 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Liam Swile, .NET and cloud developer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0d1117"/>
-      <stop offset="1" stop-color="#161b2e"/>
+      <stop offset="0" stop-color="#0e0c07"/>
+      <stop offset="1" stop-color="#1a160b"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#8b5cf6"/>
-      <stop offset="1" stop-color="#38bdf8"/>
-    </linearGradient>
-    <radialGradient id="glowA" cx="0.15" cy="0.2" r="0.5">
-      <stop offset="0" stop-color="#512bd4" stop-opacity="0.45"/>
-      <stop offset="1" stop-color="#512bd4" stop-opacity="0"/>
+    <radialGradient id="glow" cx="0.22" cy="0.35" r="0.6">
+      <stop offset="0" stop-color="#f5c518" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#f5c518" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowB" cx="0.9" cy="0.9" r="0.5">
-      <stop offset="0" stop-color="#0078d4" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#0078d4" stop-opacity="0"/>
+    <radialGradient id="glow2" cx="0.85" cy="0.8" r="0.45">
+      <stop offset="0" stop-color="#d9a21b" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#d9a21b" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    <!-- horizontal scanlines -->
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#f5c518" fill-opacity="0.035"/>
     </pattern>
-    <clipPath id="frame"><rect width="900" height="260" rx="14"/></clipPath>
+    <!-- diagonal hatching like the circuit texture in the reference -->
+    <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+      <rect width="2" height="10" fill="#f5c518" fill-opacity="0.07"/>
+    </pattern>
+    <linearGradient id="hatchFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.45" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="hatchMask"><rect width="900" height="260" fill="url(#hatchFade)"/></mask>
+    <clipPath id="frame"><rect width="900" height="260" rx="6"/></clipPath>
   </defs>
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; }
@@ -31,46 +37,67 @@
     .cursor { animation: blink 1s steps(1) infinite; }
     .fade { opacity: 0; animation: fadein 0.8s ease-out forwards; }
     .f2 { animation-delay: 0.25s; } .f3 { animation-delay: 0.5s; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
     @keyframes show { to { opacity: 1; } }
     @keyframes fadein { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
     @keyframes blink { 50% { opacity: 0; } }
+    @keyframes pulse { 50% { opacity: 0.35; } }
   </style>
 
   <g clip-path="url(#frame)">
     <rect width="900" height="260" fill="url(#bg)"/>
-    <rect width="900" height="260" fill="url(#grid)"/>
-    <rect width="900" height="260" fill="url(#glowA)"/>
-    <rect width="900" height="260" fill="url(#glowB)"/>
-    <rect y="256" width="900" height="4" fill="url(#accent)"/>
+    <rect width="900" height="260" fill="url(#hatch)" mask="url(#hatchMask)"/>
+    <rect width="900" height="260" fill="url(#glow)"/>
+    <rect width="900" height="260" fill="url(#glow2)"/>
+    <rect width="900" height="260" fill="url(#scan)"/>
+    <rect y="0" width="900" height="3" fill="#f5c518"/>
+  </g>
+
+  <!-- HUD crosshairs -->
+  <g stroke="#f5c518" stroke-opacity="0.55" stroke-width="1.2">
+    <path d="M408 20v12M402 26h12"/>
+    <path d="M408 228v12M402 234h12"/>
+    <path d="M24 234h10M24 234v-10" fill="none"/>
   </g>
 
   <!-- Left: name and title -->
   <g class="sans">
-    <text x="44" y="98" class="fade" font-size="44" font-weight="700" fill="#f0f6fc">Liam Swile</text>
-    <rect x="46" y="114" width="64" height="4" rx="2" fill="url(#accent)" class="fade f2"/>
-    <text x="44" y="150" class="fade f2" font-size="19" fill="#c9d1d9">.NET &amp; Cloud Developer</text>
-    <text x="44" y="180" class="fade f3 mono" font-size="13.5" fill="#8b949e">C# · ASP.NET Core · Azure · Docker</text>
-    <text x="44" y="216" class="fade f3 mono" font-size="12.5" fill="#7ee787">● open to junior / graduate roles</text>
+    <text x="44" y="96" class="fade" font-size="46" font-weight="800" fill="#f5c518" letter-spacing="-0.5">Liam Swile</text>
+    <text x="44" y="138" class="fade f2" font-size="19" fill="#f3e9c6">.NET &amp; Cloud Developer</text>
+    <text x="44" y="166" class="fade f3 mono" font-size="13.5" fill="#a8975f">C# · ASP.NET Core · Azure · Docker</text>
+    <g class="fade f3 mono" font-size="12.5">
+      <rect x="44" y="190" width="9" height="9" fill="#f5c518" class="pulse"/>
+      <text x="62" y="199" fill="#f5c518">OPEN TO JUNIOR / GRADUATE ROLES</text>
+    </g>
   </g>
 
   <!-- Right: terminal -->
-  <g transform="translate(452 34)">
-    <rect width="412" height="192" rx="10" fill="#010409" fill-opacity="0.85" stroke="#30363d"/>
-    <rect width="412" height="28" rx="10" fill="#161b22"/>
-    <rect y="18" width="412" height="10" fill="#161b22"/>
-    <circle cx="18" cy="14" r="5" fill="#ff5f57"/>
-    <circle cx="36" cy="14" r="5" fill="#febc2e"/>
-    <circle cx="54" cy="14" r="5" fill="#28c840"/>
-    <text x="206" y="18.5" text-anchor="middle" class="mono" font-size="11" fill="#8b949e">liam@dev: ~/portfolio</text>
+  <g transform="translate(452 30)">
+    <rect width="412" height="172" rx="4" fill="#0a0904" fill-opacity="0.9" stroke="#f5c518" stroke-opacity="0.35"/>
+    <rect width="412" height="24" rx="4" fill="#f5c518"/>
+    <rect y="16" width="412" height="8" fill="#f5c518"/>
+    <text x="12" y="16.5" class="mono" font-size="11" font-weight="700" fill="#0e0c07">LIAM@DEV:~/PORTFOLIO</text>
+    <text x="400" y="16.5" text-anchor="end" class="mono" font-size="11" font-weight="700" fill="#0e0c07">[■ ■ ■]</text>
 
     <g class="mono" font-size="13">
-      <text x="16" y="54" class="line l1"><tspan fill="#7ee787">$</tspan><tspan fill="#c9d1d9"> dotnet run --project liam</tspan></text>
-      <text x="16" y="76" class="line l2" fill="#a5b4fc">  ✔ REST APIs with JWT auth</text>
-      <text x="16" y="96" class="line l3" fill="#a5b4fc">  ✔ Azure Functions + Storage</text>
-      <text x="16" y="116" class="line l4" fill="#a5b4fc">  ✔ Docker Compose + GitHub Actions</text>
-      <text x="16" y="136" class="line l5" fill="#a5b4fc">  ✔ Factory · Observer · Decorator</text>
-      <text x="16" y="160" class="line l6"><tspan fill="#7ee787">$</tspan><tspan fill="#c9d1d9"> dotnet test</tspan></text>
-      <text x="16" y="180" class="line l7"><tspan fill="#3fb950">  Passed!</tspan><tspan fill="#8b949e"> Failed: 0</tspan><tspan fill="#c9d1d9" class="cursor"> ▌</tspan></text>
+      <text x="16" y="48" class="line l1"><tspan fill="#f5c518">&gt;</tspan><tspan fill="#f3e9c6"> dotnet run --project liam</tspan></text>
+      <text x="16" y="70" class="line l2" fill="#d9c27a">  + REST APIs with JWT auth</text>
+      <text x="16" y="90" class="line l3" fill="#d9c27a">  + Azure Functions + Storage</text>
+      <text x="16" y="110" class="line l4" fill="#d9c27a">  + Docker Compose + GitHub Actions</text>
+      <text x="16" y="130" class="line l5" fill="#d9c27a">  + Factory · Observer · Decorator</text>
+      <text x="16" y="154" class="line l6"><tspan fill="#f5c518">&gt;</tspan><tspan fill="#f3e9c6"> dotnet test</tspan><tspan fill="#f5c518" font-weight="700">  PASSED</tspan><tspan fill="#a8975f"> 0 failed</tspan><tspan fill="#f5c518" class="cursor"> █</tspan></text>
     </g>
+  </g>
+
+  <!-- HUD readout + target box, bottom right -->
+  <g class="mono" font-size="10.5" fill="#f5c518" fill-opacity="0.85">
+    <text x="800" y="222" text-anchor="end">[.NET 10]  BUILD: OK</text>
+    <text x="800" y="236" text-anchor="end">SEQ ST10438679.2026</text>
+  </g>
+  <g transform="translate(812 212)" stroke="#f5c518" stroke-opacity="0.85" fill="none" stroke-width="1">
+    <rect width="28" height="28"/>
+    <rect x="7" y="7" width="14" height="14"/>
+    <path d="M0 0L28 28M28 0L0 28" stroke-opacity="0.4"/>
+    <circle cx="14" cy="14" r="2.2" fill="#f5c518"/>
   </g>
 </svg>
