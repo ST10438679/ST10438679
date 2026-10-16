@@ -56,7 +56,7 @@ looking:    junior / graduate .NET developer roles
 ## 💼 Experience
 
 **Tutor**, Emeris
-<br /><sub>Supporting fellow students with programming and application development.</sub>
+<br /><sub>Tutoring fellow computer science students in first and second year, as well as Higher Certificate students.</sub>
 
 **Frontend Engineer & Integration Developer**, WIL team project (Emeris)
 - Build responsive HTML / CSS / JavaScript screens from wireframes and storyboards, with client-side validation
