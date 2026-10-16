@@ -15,7 +15,7 @@
 
 ## 👋 About me
 
-I'm a **Bachelor of Computer & Information Sciences** student at **IIE Varsity College** in Cape Town, and a **tutor** for fellow students. I like owning a feature from start to finish: modelling the data, building the API and the UI, writing the tests, then containerising and deploying it. My recent work spans three different .NET architectures: a **cloud-native Azure app**, a **secure role-based MVC system**, and a **containerised API + Blazor platform with CI**.
+I'm a **Bachelor of Computer & Information Sciences** student at **Emeris** (formerly IIE Varsity College) in Cape Town, and a **tutor** for fellow students. I like owning a feature from start to finish: modelling the data, building the API and the UI, writing the tests, then containerising and deploying it. My recent work spans three different .NET architectures: a **cloud-native Azure app**, a **secure role-based MVC system**, and a **containerised API + Blazor platform with CI**.
 
 ```yaml
 focus:      backend & cloud development in .NET
@@ -55,10 +55,10 @@ looking:    junior / graduate .NET developer roles
 
 ## 💼 Experience
 
-**Tutor**, IIE Varsity College
+**Tutor**, Emeris
 <br /><sub>Supporting fellow students with programming and application development.</sub>
 
-**Frontend Engineer & Integration Developer**, WIL team project (IIE Varsity College)
+**Frontend Engineer & Integration Developer**, WIL team project (Emeris)
 - Build responsive HTML / CSS / JavaScript screens from wireframes and storyboards, with client-side validation
 - Connect the frontend to back-end APIs and database services, keeping data flowing securely between layers
 - Test and debug integration points across modules, document the integration architecture and take part in code reviews
@@ -68,7 +68,7 @@ looking:    junior / graduate .NET developer roles
 
 ## 🎓 Education
 
-**Bachelor of Computer & Information Sciences**, IIE Varsity College · <sub>in progress</sub>
+**Bachelor of Computer & Information Sciences**, Emeris (formerly IIE Varsity College) · <sub>in progress</sub>
 <br />**National Senior Certificate** (Bachelor's admission), Bellville Hoër Tegniese Skool · <sub>2018</sub>
 
 ---
