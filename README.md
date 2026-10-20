@@ -6,7 +6,6 @@
   <a href="https://www.linkedin.com/in/liam-swile-a4a951331"><img src="https://img.shields.io/badge/LinkedIn-0E0C07?style=for-the-badge&logo=linkedin&logoColor=F5C518" alt="LinkedIn" /></a>
   <a href="mailto:dswile9@gmail.com"><img src="https://img.shields.io/badge/Email-0E0C07?style=for-the-badge&logo=gmail&logoColor=F5C518" alt="Email" /></a>
   <a href="https://github.com/ST10438679?tab=repositories"><img src="https://img.shields.io/badge/Projects-0E0C07?style=for-the-badge&logo=github&logoColor=F5C518" alt="Projects" /></a>
-  <img src="https://komarev.com/ghpvc/?username=ST10438679&style=for-the-badge&color=F5C518&label=PROFILE+VIEWS" alt="Profile view count" />
 </p>
 
 </div>
